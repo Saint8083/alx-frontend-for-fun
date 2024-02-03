@@ -1,10 +1,16 @@
 # Flexbox
 
-## learning objectives
+flex-flow
+This is a shorthand for the flex-direction and flex-wrap properties, which together define the flex container’s main and cross axes. The default value is row nowrap.
 
-- How to convert float positioning to a flex display
-- How to horizontally and vertically align elements using Flexbox
-- The difference between the main and cross axes
-- Properties that work on flex elements vs flex container
-- Shorthands for flex
-- How to create a new page with flex in mind
+** .container {
+  flex-flow: column wrap;
+}
+
+
+display
+This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.
+
+.container {
+  display: flex; /* or inline-flex */
+}
